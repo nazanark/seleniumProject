@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Project Test Suite">
+    <test name="Project Test">
+        <parameter name="username" value="admin"></parameter>
+        <parameter name="password" value="admin"></parameter>
+        <classes>
+            <class name="project.Task1_2"></class>
+        </classes>
+    </test>
+</suite>
+
