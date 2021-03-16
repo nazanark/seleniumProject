@@ -67,6 +67,7 @@ public class Task1_2 {
         lalaName.getText();
         Assert.assertTrue(lalaName.isDisplayed());
         System.out.println("hello");
+        System.out.println("bye");
 
         Thread.sleep(1000);
         WebElement changeToText = driver.findElement(By.xpath("//i[@class='fa fa-circle text-warning']/parent::a"));
