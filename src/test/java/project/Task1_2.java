@@ -26,6 +26,8 @@ public class Task1_2 {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         actions = new Actions(driver);
+        actions = new Actions(driver);
+
 
     }
 
