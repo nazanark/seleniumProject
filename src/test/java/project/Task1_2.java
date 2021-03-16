@@ -13,6 +13,7 @@ import org.testng.annotations.*;
 import sun.font.Script;
 import sun.jvm.hotspot.runtime.Threads;
 
+
 import java.util.Set;
 
 public class Task1_2 {
@@ -65,6 +66,7 @@ public class Task1_2 {
         WebElement lalaName = driver.findElement(By.xpath("//a[.='Lala Lamees']"));
         lalaName.getText();
         Assert.assertTrue(lalaName.isDisplayed());
+        System.out.println("hello");
 
         Thread.sleep(1000);
         WebElement changeToText = driver.findElement(By.xpath("//i[@class='fa fa-circle text-warning']/parent::a"));
